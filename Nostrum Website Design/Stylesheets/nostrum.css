@@ -1,0 +1,348 @@
+body{
+	margin: 0;
+}
+
+#header-div{
+	background: #1F3F66;
+	margin: 0;
+	padding: 20px;
+	text-decoration-style: none;
+}
+
+#header-div  li a{
+	text-decoration: none;
+	color: white;
+}
+
+#logo{
+	float: left;
+	padding: 15px;
+	margin-left: 25px;
+}
+
+.top-head{
+	text-decoration-style: none;
+	display: inline-block;
+	margin-left:5%;
+	font-size: 26px;
+	font-family: arial;
+	padding: 10px 10px;
+}
+
+#top-pad{
+	image-rendering: url(nostrum.png);
+	padding-left: 100px;	
+}
+
+#search-bar{
+	overflow: hidden;
+	float: right;
+	background-color: #1F3F66;
+	border: 2px solid white;
+	height: 40px;
+	max-width: 220px;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	color: white;
+	background: url('magnifier.png');
+	background-repeat: no-repeat;
+	background-size: 20px auto;
+	background-position: 5 5;
+}
+
+::placeholder{
+	color: white
+}
+
+#down-head{
+	list-style-type: none;
+	background-image: url(skyline.jpg);
+	height: 425px;
+	max-width: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid white;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 66%;
+	opacity: 0.1;
+	background-color: white;
+}
+
+#down-head1{
+	position: absolute;
+	top: 15%;
+	font-size: 42px;
+	font-family: Trebuchet MS ;
+	margin: 60px 0 0 150px;
+	color: #1F3F66;
+	padding-left: 25px;
+	width: 580px;
+}
+
+#down-head1-p{
+	position: absolute;
+	top: 40%;
+	font-size: 38px;
+	font-family: arial;
+	font-style: justify;
+	margin: 0 0 0 150px;
+	color: #1F3F66;
+	padding-left: 25px;
+	width: 510px;
+}
+
+#Voluptatibus-button{
+	position: absolute;
+	top: 52%;
+	color: white;
+	background-color: #57bc42;
+	font-size: 24px;
+	padding: 10px 20px;
+	border-radius: 7px;
+	margin: 40px 0 0 180px;
+	border: green;
+}
+
+#voluptatibus-button:hover{
+	background: green;
+}
+
+#phone-black{
+	position: absolute;
+	left: 54%;
+	width: 450px;
+	padding: 80px 170px 0 0;
+}
+
+#back-lines{
+	background: #e5e5e5;
+	margin-top: 0;
+	padding: 10px;
+}
+
+#lines{
+	font-size: 22px;
+	font-family: Arial regular;
+	color: #1F3F66;
+	width: 260px;
+	list-style-type: none;
+	display: inline-block;
+	background: #e5e5e5;
+	padding: 20px;
+}
+
+.logos{
+	margin-left: 40px;
+	height: 80px;
+}
+
+#iphone{
+	height: 250px;
+	margin: 15px 0 0 200px;
+	}
+
+#iphone-p{
+	float: right;
+	margin: 30px 250px 0 0 ;
+}
+
+#iphone-side{
+	list-style-type: none;
+	font-size: 24px;
+	padding: 10px;
+	color: #1F3F66;
+}
+
+#iphone-side-head{
+	font-family: Arial bold;
+	list-style-type: none;
+	font-size: 36px;
+	padding: 8px;
+	color: #1F3F66;
+}
+
+#green-button{
+	color: white;
+	background-color: #57bc42;
+	font-size: 24px;
+	padding: 10px 20px;
+	border-radius: 7px;
+	border: green;
+}
+
+#green-button:hover{
+	background: green;
+}
+
+.clear-fix{
+	clear: both;
+}
+
+h3{
+	font-size: 40px;
+	margin-left: 200px;
+	position: relative;
+	color: #1F3F66;
+}
+
+#last-phone{
+	margin-left: 200px;
+}
+
+#phone-paragraph1{
+	position: absolute;
+	left: 400px;
+	top: 1023px;
+	background: #e5e5e5;
+	font-size: 22px;
+	padding: 5px 25px 5px 35px;
+	margin-right: 700px;
+	color: #1F3F66;
+	width: 250px;
+}
+
+#phone-paragraph2{
+	position: absolute;
+	top: 1111px;
+	left: 400px;
+	background: #e5e5e5;
+	font-size: 22px;
+	padding: 5px 25px 5px 35px;
+	margin-right: 700px;
+	color: #1F3F66;
+	width: 250px;
+}
+
+#phone-paragraph3{
+	position: absolute;
+	left: 400px;
+	top: 1203px;
+	background: #e5e5e5;
+	font-size: 22px;
+	padding: 5px 25px 5px 35px;
+	margin-right: 700px;
+	color: #1F3F66;
+	width: 250px;
+}
+
+#wifi-last{
+	position: absolute;
+	top: 1040px;
+	left: 355px;
+}
+
+#connect-last{
+	position: absolute;
+	top: 1128px;
+	left: 355px;
+}	
+
+#message-last{
+	position: absolute;
+	top: 1220px;
+	left: 355px;
+}
+
+#last-div{
+	float: right;
+}
+
+form{
+	background: #1F3F66;
+	position: absolute;
+	top: 1000px;
+	left: 800px;
+	padding: 0px;
+	width: 400px;
+	height: 280px;
+	border-radius: 10px;
+}
+
+form ::placeholder{
+	color: #1F3F66;
+	font-family: arial;
+}
+
+#last-form{
+	position: absolute;
+	font-family: arial;
+	color: white;
+	font-size: 24px;
+	background: #1F3F66;
+	padding: 20px 40px;
+	width: 120px;
+	bottom: 200px;
+	text-align: center;
+	border-radius: 10px
+}
+
+#right-head-form{
+	background: #f9b046;
+	position: absolute;
+	bottom: 200px;
+	left: 180px;
+	display: inline-block;
+	padding: 20px 40px;
+	font-family: arial;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	width: 140px;
+	border-top-right-radius: 10px;
+}
+
+#none{
+	position: absolute;
+	width: 30px;
+	background: #1F3F66;
+	height: 70px;
+	left: 180px;
+	top: -28px;
+	border-top-right-radius: 10px;
+}
+
+
+.box-input{
+	width: 320px;
+	height: 50px;
+	color: #1F3F66;
+	background: #e5e5e5;
+	padding: 8px;
+	border-radius: 5px;
+	border-style: none;
+	font-size: 16px;
+}
+
+#address{
+	position: absolute;
+	top: 90px;
+	left: 30px;
+}
+
+#password{
+	position: absolute;
+	top: 160px;
+	left: 30px;
+}
+
+#vel-button{
+	position: absolute;
+	top: 180px;
+	color: white;
+	background-color: #57bc42;
+	font-size: 24px;
+	padding: 10px 20px;
+	border-radius: 7px;
+	margin: 40px 0 0 180px;
+	border: green;
+}
+
+#vel-button:hover{
+	background: green;
+}
